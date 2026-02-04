@@ -1,0 +1,319 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    font-family: 'Open Sans';
+}
+
+header{
+   /*  width: 100%; */
+    background-image: url(/assets/images/Header_Background.png);
+    background-size: 100% 100%;
+    
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 69px 24px;
+}
+
+.header-content h1{
+    margin: 0;
+    width: 278px;
+    font-family: 'Luckiest Guy';
+    color: #ffffff;
+    
+}
+
+.header-content p{
+    color: #ffffff;
+    max-width: 757px;
+}
+
+.button-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.button-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.header-content button{
+    width: 381px;
+    height: 52px;
+    border: none;
+    border-radius: 28px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* box-sizing: border-box; */
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    padding: 40px 24px;
+    box-sizing: border-box;
+
+    
+}
+
+.section2, .section4{
+    background-color: #F6F6F6;
+}
+
+figure{
+   
+   margin: 0;
+   padding: 0;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+section h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #23272A;
+    margin: 0;
+}
+section p{
+    font-size: 16px;
+    color: #23272A;
+    margin: 0;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+.button-abri-navegador{
+
+    background-color: #23272A;
+    color: #ffffff;
+
+
+}
+
+footer{
+    background-color: #23272A;
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer figure{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:400px){
+
+    .header-content button{
+        width: 100%;
+    }
+    figure{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    
+
+    
+    
+}
+
+@media screen and (max-width:379px) {
+
+    section figure{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    footer img{
+        width: 50dvw;
+
+    }
+
+    
+    
+}
+
+@media screen and (max-width:320px){
+    section img{
+        width: 100% ;
+    }
+
+    section h2{
+        font-size: 20px;
+    }
+
+    
+    
+}
+
+
+
+@media screen and (max-width:340px) {
+
+    .header-content h1{
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (min-width:668px) {
+
+    .header-content h1, .header-content p{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width:757px) {
+
+    header{
+        background-image: url(/assets/images/Header_Background_tablet.png);
+        
+        
+        
+    }
+
+    .button-content{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button-content .button-baixar{
+    width: 205px;
+    height: 44px;
+    }  
+    
+    .button-content .button-abri-navegador{
+    width:281px;
+    height: 44px;
+
+    }
+    
+}
+
+@media screen and (min-width:958px) {
+
+    section{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .section2{
+        flex-direction: row-reverse;
+    }
+
+    .section2 .section-text{
+        width: 351px;
+        height: 212px;
+    }
+
+
+
+    figure{
+        width: 607px;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+
+    .section-text{
+        width: 348px;
+        height: 374px;
+        align-items: center;
+        /* gap: 16px; */
+        
+    }
+
+    .section-text h2{
+
+        font-size: 40px;
+        font-weight: 800;
+
+    }
+
+    .section4{
+        flex-direction: column;
+    }
+
+    .section4 .section-text{
+        display:contents;
+    }
+    .section4 h2{
+        width: 608px;
+        font-size: 40px;
+        font-family: 'Luckiest Guy';
+    
+    }
+
+    .section4 p{
+        width: 802px;
+        
+    
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:600px) and (max-width:1050px) {
+
+    section{
+        padding: 40px 60px;
+        
+    }
+
+   
+
+}
+
+@media screen and (min-width:600px) and (max-width:958px){
+
+     section h2, p{
+        text-align: center;
+    }
+
+}
