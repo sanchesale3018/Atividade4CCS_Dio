@@ -10,7 +10,7 @@
 
 header{
    /*  width: 100%; */
-    background-image: url(/assets/images/Header_Background.png);
+    background-image: url(assets/images/Header_Background.png);
     background-size: 100% 100%;
     
 }
@@ -317,3 +317,4 @@ footer figure{
     }
 
 }
+
